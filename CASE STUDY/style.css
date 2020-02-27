@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+body {
+        margin: 10px;
+        padding: 10px;
+        background-image: url("D:\HTML\module8_css\vc.jpg");
+        border-radius: 20px;
+    }
+    
+    .main {
+        top: 100%;
+        left: 100%;
+        padding: 60px 40px 50px 40px;
+    }
+    
+    .dv {
+        padding: 60px 40px 50px 40px;
+        border-radius: 20px;
+    }
+    
+    .submit {
+        border-radius: 20px;
+        padding: 10px 20px;
+        background: dodgerblue;
+        color: white;
+        margin-top: 10px;
+        border: none;
+        outline: none;
+        margin-left: 50px;
+    }
+    
+    img {
+        border-radius: 50%;
+        position: absolute;
+        margin-left: -50px;
+        margin-top: -230px;
+    }
+    
+    #name {
+        width: 200px;
+        border: royalblue;
+        background: transparent;
+        border-bottom: 1px solid red;
+        padding: 6px;
+        margin-bottom: 15px;
+        color: blue;
+    }
+    
+    #name:hover {
+        border: blueviolet;
+        background-color: rgb(20, 255, 196);
+        padding: 10px;
+        color: deeppink;
+    }
